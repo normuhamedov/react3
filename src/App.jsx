@@ -1,14 +1,12 @@
 import React from 'react'
-import Sekundomer from './Sekundomer'
-import Timer from './Timer'
+import Weather from './components/Weather'
+import Products from './components/Products'
 
 function App() {
   return (
     <>
-    <div className='flex items-center justify-center gap-[500px] bg-gray-100'>
-    <Sekundomer/>
-    <Timer/>
-    </div>
+    <Weather/>
+    <Products/>
     </>
   )
 }
