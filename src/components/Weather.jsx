@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_KEY = "34d3f8a62aadb7d6470affc450d58081";
+const API_KEY = "25de25d6d6c832b7f2b8bc88124fe936";
 const CITIES = [
   "Tashkent",
   "Bishkek",
